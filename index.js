@@ -41,5 +41,6 @@ var kittens = [
     return kitty
   }
   
+  console.log(removeLastKitten())
   
   
