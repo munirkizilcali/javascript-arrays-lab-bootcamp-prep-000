@@ -10,8 +10,9 @@ var kittens = [
     kittens.push(item)
     return kittens
   }
-  
-  console.log(destructivelyAppendKitten(kittens,'yarrak'))
-  
-  
+
+  function destructivelyPrependKitten(item) {
+    kittens.unshift(item)
+    return kittens
+  }
   
