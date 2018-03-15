@@ -20,3 +20,8 @@ var kittens = [
     kittens.pop()
     return kittens
   }
+  
+  function destructivelyRemoveFirstKitten() {
+    kittens.shift()
+    return kittens
+  }
