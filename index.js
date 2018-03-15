@@ -8,7 +8,7 @@ var kittens = [
   
   function destructivelyAppendKitten(kitty, item) {
     kitty.push(item)
-    return array
+    return kitty
   }
   
   console.log(destructivelyAppendKitten(kittens,'yarrak'))
