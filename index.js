@@ -41,6 +41,9 @@ var kittens = [
     return kitty
   }
   
+  function removeFistyKitten() {
+    var kitty = kittens.slice(1, kittens.length-1)
+  }
 
   
   
