@@ -11,5 +11,7 @@ var kittens = [
     return array
   }
   
+  console.log(destructivelyAppendKitten(kittens,'yarrak'))
+  
   
   
