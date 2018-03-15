@@ -25,3 +25,14 @@ var kittens = [
     kittens.shift()
     return kittens
   }
+  
+  function appendKitten(item) {
+    var kitty = [...kittens, item]
+    return kitty
+  }
+  
+  
+  
+  
+  
+  
