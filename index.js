@@ -43,6 +43,7 @@ var kittens = [
   
   function removeFirstKitten() {
     var kitty = kittens.slice(1, kittens.length)
+    return kitty
   }
 
   
