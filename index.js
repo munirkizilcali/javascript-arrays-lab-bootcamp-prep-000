@@ -42,7 +42,7 @@ var kittens = [
   }
   
   function removeFistyKitten() {
-    var kitty = kittens.slice(1, kittens.length-1)
+    var kitty = kittens.slice(1, kittens.length)
   }
 
   
