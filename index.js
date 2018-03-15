@@ -37,10 +37,10 @@ var kittens = [
   }
   
   function removeLastKitten() {
-    var kitty = kittens.slice(0,kittens.lenght-1)
+    var kitty = kittens.slice(0,kittens.lenght)
     return kitty
   }
   
-  console.log(removeLastKitten())
+  console.log(kittens.lenght)
   
   
